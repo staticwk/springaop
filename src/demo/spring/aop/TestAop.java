@@ -10,6 +10,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class TestAop {
 
+    /**
+     * springaop测试
+     */
     @Test
     public void test(){
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
