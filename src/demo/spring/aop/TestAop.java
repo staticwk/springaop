@@ -16,10 +16,4 @@ public class TestAop {
         Book book = (Book) applicationContext.getBean("book");
         book.add();
     }
-    @Test
-    public void test1(){
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
-        Book book = (Book) applicationContext.getBean("book");
-        book.add();
-    }
 }
